@@ -1,0 +1,64 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 992px) {
+    .gallery img {
+        width: calc(33.333% - 30px);
+        margin-bottom: 30px;
+    }
+}
+
+.testimonials {
+    padding: 50px 0;
+    /* Add margin to bottom of testimonial section */
+.mb-50 {
+    margin-bottom: 50px;
+  }
+}
+
+.carousel-indicators li {
+    background-color: var(--secondary-color);
+}
+
+.carousel-indicators li.active {
+    background-color: var(--primary-color);
+}
+
+.carousel-inner .carousel-item {
+    text-align: center;
+    color: white;
+    background-color: #333;
+}
+
+.carousel-inner .carousel-item h4 {
+    margin-bottom: 20px;
+}
+
+.carousel-inner .carousel-item p {
+    max-width: 500px;
+    margin: auto;
+}

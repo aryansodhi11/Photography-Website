@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Website</title>
+    <!-- Add Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Add custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">My Photography Website</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#hero">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Hero Section -->
+    <section id="hero"></section>
+    <section class="hero" style="background-image: url('https://source.unsplash.com/random/1600x900');">
+        <div class="container">
+            <h1>Welcome to my Photography Website</h1>
+            <p>Explore my stunning collection of photos.</p>
+        </div>
+    </section>
+
+
+    <!-- Photo Gallery -->
+    <section id="gallery" class="py-5">
+        <div class="container">
+          <h2 class="text-center mb-5">Gallery</h2>
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <img src="https://source.unsplash.com/random/600x400?camera" alt="Camera photo" class="img-fluid">
+            </div>
+            <div class="col-md-4 mb-4">
+              <img src="https://source.unsplash.com/random/600x400?photography" alt="Photography photo" class="img-fluid">
+            </div>
+            <div class="col-md-4 mb-4">
+              <img src="https://source.unsplash.com/random/600x400?dslr" alt="DSLR photo" class="img-fluid">
+            
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- Testimonial Slider -->
+    <section id="testimonials"></section>
+    <section class="testimonials">
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p>“Absolutely loved the photoshoot! The photographer has a great eye for detail and captures the essence of the moment perfectly.”</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p>“Exceeded all expectations! The images were not only visually stunning but also conveyed emotions beautifully. Highly recommended.”</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p>“Incredible talent! The photographer's creativity shines through in every shot, turning ordinary moments into extraordinary memories.”</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p>“An artist with a camera! The photographer's creative vision transformed ordinary scenes into extraordinary works of art”</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p>"A true artist behind the lens! The photographs speak volumes about the photographer's passion and dedication to their craft”</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p>“Smooth and elegant website and the photos were mesmerizing too”</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p>“Outstanding clicks, definitely keeping your photos as my wallpaper.”</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p>“I was blown away by the selection of photos on this website. There's something for everyone, no matter what your interests are. I've already recommended it to all my friends and family.”</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p>“I've been looking for a photography website that offers high-quality photos I'm so happy with selection of photos. Thank you!”</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p>“I've been using this photography website for a while now and I must say, the quality of the photos is outstanding. I've never seen anything like it before. I highly recommend it to anyone looking for high-quality photos.”</p>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact"> </section>
+    <section class="contact-us">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Add Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybBud7RduPuemT//+jJXB16zg6i8U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    <!-- Add custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
